@@ -8,7 +8,7 @@ Scalable Vector Graphic format (SVG) is a text file format that uses text to rep
 
 For example a simple SVG image file named 'circle.svg', representing a circle with a red stroke and yellow fill, might have the following text in the file:
 
-```svg
+```xml
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.45 69.45">
 	<defs>
 		<style>
@@ -30,17 +30,17 @@ An HTML document that wants to display this image might have the following img t
 <img src="images/circle.svg" />
 ```
 
-It is possible (and often recommended) to use a vector image editing application, such as Adobe Illustrator, to create vector images visually, and then export them as SVG-formatted text files for inclusion on web pages.
+It is possible (and often recommended) to use a vector image editing application, such as [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) or [Inkscape](https://inkscape.org/), to create vector images visually, and then export them as SVG-formatted text files for inclusion on web pages.
 
 ## Requirements
 
 Do the following:
 
-### Illustrator requirements
+### Vector image requirements
 
-Using Adobe Illustrator, create a vector graphic for your website. This could be a logo, a symbol, a user interface element, or an illustration. Your image should include unique forms, layers, and colors.
+Using Adobe Illustrator or Inkscape, create a vector graphic for your website. This could be a logo, a symbol, a user interface element, or an illustration. Your image should include unique forms, layers, and colors.
 
-When your image is complete, save it as an SVG file as follows: File > Save As... > Format: SVG (svg) > Save. You can leave the SVG Options at their default settings. After you click OK you will have a web-ready scalable vector graphic.
+When your image is complete, save it as an SVG file (in Illustrator, use the following menu: `File` > `Save As...` > `Format: SVG (svg)` > `Save`; in Inkscape use the following menu: `File` > `Export` and choose `Plain SVG`). You can leave the SVG Options at their default settings. After you click OK you will have a web-ready scalable vector graphic.
 
 ### Publishing requirements
 
@@ -60,7 +60,7 @@ The work you do in this assignment will be published to the same directory where
 
 In order to submit this assignment, you must publish all modified files to the web and upload the code to GitHub.
 
-You **must** include your original Illustrator `.ai` document in the `images` directory in the code you submit to GitHub, as well as the web-ready file in `.svg` format.
+You **must** include your original Illustrator `.ai` or Inkscape `.svg` document in the `images` directory in the code you submit to GitHub, as well as the web-ready file in `.svg` format if not using Inkscape's native SVG format.
 
 ### Upload the web page to a web server
 
